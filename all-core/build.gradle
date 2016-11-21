@@ -75,3 +75,10 @@ grailsPublish {
 assets {
     packagePlugin = true
 }
+sourceSets {
+    main {
+        resources {
+            srcDir 'grails-app/migrations'
+        }
+    }
+}
